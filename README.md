@@ -64,9 +64,9 @@ I gained practical experience with PLC inputs and outputs, sensor-based control,
 
 I also learned how important it is to test different operating conditions rather than assuming a program will work correctly.
 
-Project Screenshots
+## Project Screenshots
 
-The screenshots folder contains five images covering all 12 ladder-logic rungs.
+[View all five ladder-logic screenshots](./Screenshots) covering all 12 rungs of the conveyor sorting program.
 
 Project Scope
 
