@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "name": "Industrial_Conveyor_Sorting",
+    "type": "plc-project"
+  },
+  "data": {
+    "dataTypes": [],
+    "globalVariableLists": [],
+    "pous": [],
+    "configuration": {
+      "resource": {
+        "tasks": [
+          {
+            "name": "task0",
+            "triggering": "Cyclic",
+            "interval": "T#200ms",
+            "priority": 1
+          }
+        ],
+        "instances": [
+          {
+            "name": "instance0",
+            "task": "task0",
+            "program": "main"
+          }
+        ],
+        "globalVariables": []
+      }
+    },
+    "libraries": [],
+    "debugVariables": {
+      "pous": {
+        "main": [
+          "Product_Sensor",
+          "Conveyor_Motor",
+          "Sorting_Pusher",
+          "Start_Button",
+          "Stop_OK",
+          "Reject_Sensor",
+          "Sorting_Position",
+          "Overload_OK",
+          "Reject_Memory",
+          "Sorting_Seen",
+          "Restart_Required",
+          "Reset_Button",
+          "Stop_Restart_Required"
+        ]
+      }
+    }
+  }
+}
